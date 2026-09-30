@@ -19,10 +19,18 @@ namespace Operadora
 
         private void btn_Vivo_CheckedChanged(object sender, EventArgs e)
         {
-
+            //Formatação cores
+            BackColor = Color.DarkViolet;
+            //Ativar
+            lbl_Nome.Enabled = true;
         }
 
         private void pcb_image_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
