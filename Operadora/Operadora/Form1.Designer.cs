@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.PictureBox pcb_image;
             this.label1 = new System.Windows.Forms.Label();
             this.grp_operadoras = new System.Windows.Forms.GroupBox();
             this.btn_Oi = new System.Windows.Forms.RadioButton();
@@ -42,7 +43,7 @@
             this.lbl_DDD = new System.Windows.Forms.Label();
             this.txt_DDD = new System.Windows.Forms.TextBox();
             this.lbl_NumeroCelular = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_NumeroCelular = new System.Windows.Forms.TextBox();
             this.lbl_ValorRecarga = new System.Windows.Forms.Label();
             this.txt_ValorRecarga = new System.Windows.Forms.TextBox();
             this.btn_RS1 = new System.Windows.Forms.Button();
@@ -50,7 +51,7 @@
             this.btn_RS3 = new System.Windows.Forms.Button();
             this.btn_RS4 = new System.Windows.Forms.Button();
             this.lbl_Validade1 = new System.Windows.Forms.Label();
-            this.lalbl_Validade2 = new System.Windows.Forms.Label();
+            this.lbl_Validade2 = new System.Windows.Forms.Label();
             this.lbl_Validade3 = new System.Windows.Forms.Label();
             this.lbl_Validade4 = new System.Windows.Forms.Label();
             this.lbl_Validade5 = new System.Windows.Forms.Label();
@@ -62,9 +63,9 @@
             this.lbl_Validade8 = new System.Windows.Forms.Label();
             this.btn_RS8 = new System.Windows.Forms.Button();
             this.lbl_SelecioneValor = new System.Windows.Forms.Label();
-            this.pcb_image = new System.Windows.Forms.PictureBox();
+            pcb_image = new System.Windows.Forms.PictureBox();
             this.grp_operadoras.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pcb_image)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(pcb_image)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -103,6 +104,7 @@
             this.btn_Oi.TabIndex = 3;
             this.btn_Oi.Text = "Oi";
             this.btn_Oi.UseVisualStyleBackColor = true;
+            this.btn_Oi.CheckedChanged += new System.EventHandler(this.btn_Oi_CheckedChanged);
             // 
             // btn_Tim
             // 
@@ -113,6 +115,7 @@
             this.btn_Tim.TabIndex = 2;
             this.btn_Tim.Text = "Tim";
             this.btn_Tim.UseVisualStyleBackColor = true;
+            this.btn_Tim.CheckedChanged += new System.EventHandler(this.btn_Tim_CheckedChanged);
             // 
             // btn_Claro
             // 
@@ -123,6 +126,7 @@
             this.btn_Claro.TabIndex = 1;
             this.btn_Claro.Text = "Claro";
             this.btn_Claro.UseVisualStyleBackColor = true;
+            this.btn_Claro.CheckedChanged += new System.EventHandler(this.btn_Claro_CheckedChanged);
             // 
             // btn_Vivo
             // 
@@ -215,13 +219,13 @@
             this.lbl_NumeroCelular.TabIndex = 9;
             this.lbl_NumeroCelular.Text = "Número de Celular";
             // 
-            // textBox1
+            // txt_NumeroCelular
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(426, 204);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 20);
-            this.textBox1.TabIndex = 10;
+            this.txt_NumeroCelular.Enabled = false;
+            this.txt_NumeroCelular.Location = new System.Drawing.Point(426, 204);
+            this.txt_NumeroCelular.Name = "txt_NumeroCelular";
+            this.txt_NumeroCelular.Size = new System.Drawing.Size(125, 20);
+            this.txt_NumeroCelular.TabIndex = 10;
             // 
             // lbl_ValorRecarga
             // 
@@ -305,16 +309,16 @@
             this.lbl_Validade1.TabIndex = 17;
             this.lbl_Validade1.Text = "Validade";
             // 
-            // lalbl_Validade2
+            // lbl_Validade2
             // 
-            this.lalbl_Validade2.AutoSize = true;
-            this.lalbl_Validade2.Enabled = false;
-            this.lalbl_Validade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lalbl_Validade2.Location = new System.Drawing.Point(469, 344);
-            this.lalbl_Validade2.Name = "lalbl_Validade2";
-            this.lalbl_Validade2.Size = new System.Drawing.Size(71, 16);
-            this.lalbl_Validade2.TabIndex = 18;
-            this.lalbl_Validade2.Text = "Validade";
+            this.lbl_Validade2.AutoSize = true;
+            this.lbl_Validade2.Enabled = false;
+            this.lbl_Validade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Validade2.Location = new System.Drawing.Point(469, 344);
+            this.lbl_Validade2.Name = "lbl_Validade2";
+            this.lbl_Validade2.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade2.TabIndex = 18;
+            this.lbl_Validade2.Text = "Validade";
             // 
             // lbl_Validade3
             // 
@@ -451,14 +455,15 @@
             // 
             // pcb_image
             // 
-            this.pcb_image.Image = global::Operadora.Properties.Resources.Bye_Bye_Sigma_GIF;
-            this.pcb_image.Location = new System.Drawing.Point(12, 9);
-            this.pcb_image.Name = "pcb_image";
-            this.pcb_image.Size = new System.Drawing.Size(48, 41);
-            this.pcb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcb_image.TabIndex = 30;
-            this.pcb_image.TabStop = false;
-            this.pcb_image.Click += new System.EventHandler(this.pcb_image_Click);
+            pcb_image.BackColor = System.Drawing.Color.Black;
+            pcb_image.Image = global::Operadora.Properties.Resources.im2;
+            pcb_image.Location = new System.Drawing.Point(12, 283);
+            pcb_image.Name = "pcb_image";
+            pcb_image.Size = new System.Drawing.Size(340, 180);
+            pcb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pcb_image.TabIndex = 30;
+            pcb_image.TabStop = false;
+            pcb_image.Click += new System.EventHandler(this.pcb_image_Click);
             // 
             // frm_principal
             // 
@@ -466,7 +471,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(800, 498);
-            this.Controls.Add(this.pcb_image);
+            this.Controls.Add(pcb_image);
             this.Controls.Add(this.lbl_SelecioneValor);
             this.Controls.Add(this.lbl_Validade8);
             this.Controls.Add(this.btn_RS8);
@@ -478,7 +483,7 @@
             this.Controls.Add(this.btn_RS5);
             this.Controls.Add(this.lbl_Validade4);
             this.Controls.Add(this.lbl_Validade3);
-            this.Controls.Add(this.lalbl_Validade2);
+            this.Controls.Add(this.lbl_Validade2);
             this.Controls.Add(this.lbl_Validade1);
             this.Controls.Add(this.btn_RS4);
             this.Controls.Add(this.btn_RS3);
@@ -486,7 +491,7 @@
             this.Controls.Add(this.btn_RS1);
             this.Controls.Add(this.txt_ValorRecarga);
             this.Controls.Add(this.lbl_ValorRecarga);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_NumeroCelular);
             this.Controls.Add(this.lbl_NumeroCelular);
             this.Controls.Add(this.txt_DDD);
             this.Controls.Add(this.lbl_DDD);
@@ -501,7 +506,7 @@
             this.Text = "Regarga para Celular";
             this.grp_operadoras.ResumeLayout(false);
             this.grp_operadoras.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pcb_image)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(pcb_image)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -523,7 +528,7 @@
         private System.Windows.Forms.Label lbl_DDD;
         private System.Windows.Forms.TextBox txt_DDD;
         private System.Windows.Forms.Label lbl_NumeroCelular;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_NumeroCelular;
         private System.Windows.Forms.Label lbl_ValorRecarga;
         private System.Windows.Forms.TextBox txt_ValorRecarga;
         private System.Windows.Forms.Button btn_RS1;
@@ -531,7 +536,7 @@
         private System.Windows.Forms.Button btn_RS3;
         private System.Windows.Forms.Button btn_RS4;
         private System.Windows.Forms.Label lbl_Validade1;
-        private System.Windows.Forms.Label lalbl_Validade2;
+        private System.Windows.Forms.Label lbl_Validade2;
         private System.Windows.Forms.Label lbl_Validade3;
         private System.Windows.Forms.Label lbl_Validade4;
         private System.Windows.Forms.Label lbl_Validade5;
@@ -543,7 +548,6 @@
         private System.Windows.Forms.Label lbl_Validade8;
         private System.Windows.Forms.Button btn_RS8;
         private System.Windows.Forms.Label lbl_SelecioneValor;
-        private System.Windows.Forms.PictureBox pcb_image;
     }
 }
 

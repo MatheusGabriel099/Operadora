@@ -118,7 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Bye_Bye_Sigma_GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bye Bye Sigma GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fi41wha6c3e_whatsapp_logo_file_whatsapp_svg_wikimedia_commons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fi41wha6c3e-whatsapp-logo-file-whatsapp-svg-wikimedia-commons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="im2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\im2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_20191105041658_1144x450" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20191105041658-1144x450.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -19,7 +19,7 @@ namespace Operadora.Properties {
     // através de uma ferramenta como ResGen ou Visual Studio.
     // Para adicionar ou remover um associado, edite o arquivo .ResX e execute ResGen novamente
     // com a opção /str, ou recrie o projeto do VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,9 +63,29 @@ namespace Operadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bye_Bye_Sigma_GIF {
+        internal static System.Drawing.Bitmap _20191105041658_1144x450 {
             get {
-                object obj = ResourceManager.GetObject("Bye_Bye_Sigma_GIF", resourceCulture);
+                object obj = ResourceManager.GetObject("_20191105041658_1144x450", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fi41wha6c3e_whatsapp_logo_file_whatsapp_svg_wikimedia_commons {
+            get {
+                object obj = ResourceManager.GetObject("fi41wha6c3e_whatsapp_logo_file_whatsapp_svg_wikimedia_commons", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap im2 {
+            get {
+                object obj = ResourceManager.GetObject("im2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
