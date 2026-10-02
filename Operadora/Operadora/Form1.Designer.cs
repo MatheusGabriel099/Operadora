@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.PictureBox pcb_image;
             this.label1 = new System.Windows.Forms.Label();
             this.grp_operadoras = new System.Windows.Forms.GroupBox();
-            this.btn_Oi = new System.Windows.Forms.RadioButton();
-            this.btn_Tim = new System.Windows.Forms.RadioButton();
-            this.btn_Claro = new System.Windows.Forms.RadioButton();
-            this.btn_Vivo = new System.Windows.Forms.RadioButton();
+            this.Rad_Oi = new System.Windows.Forms.RadioButton();
+            this.Rad_Tim = new System.Windows.Forms.RadioButton();
+            this.Rad_Claro = new System.Windows.Forms.RadioButton();
+            this.Rad_Vivo = new System.Windows.Forms.RadioButton();
             this.lbl_BemVindo = new System.Windows.Forms.Label();
             this.txt_nome = new System.Windows.Forms.TextBox();
             this.lbl_Nome = new System.Windows.Forms.Label();
@@ -63,9 +62,9 @@
             this.lbl_Validade8 = new System.Windows.Forms.Label();
             this.btn_RS8 = new System.Windows.Forms.Button();
             this.lbl_SelecioneValor = new System.Windows.Forms.Label();
-            pcb_image = new System.Windows.Forms.PictureBox();
+            this.pic_Logo = new System.Windows.Forms.PictureBox();
             this.grp_operadoras.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(pcb_image)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Logo)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -83,10 +82,10 @@
             // 
             // grp_operadoras
             // 
-            this.grp_operadoras.Controls.Add(this.btn_Oi);
-            this.grp_operadoras.Controls.Add(this.btn_Tim);
-            this.grp_operadoras.Controls.Add(this.btn_Claro);
-            this.grp_operadoras.Controls.Add(this.btn_Vivo);
+            this.grp_operadoras.Controls.Add(this.Rad_Oi);
+            this.grp_operadoras.Controls.Add(this.Rad_Tim);
+            this.grp_operadoras.Controls.Add(this.Rad_Claro);
+            this.grp_operadoras.Controls.Add(this.Rad_Vivo);
             this.grp_operadoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grp_operadoras.Location = new System.Drawing.Point(12, 89);
             this.grp_operadoras.Name = "grp_operadoras";
@@ -95,49 +94,49 @@
             this.grp_operadoras.TabStop = false;
             this.grp_operadoras.Text = "Operadoras";
             // 
-            // btn_Oi
+            // Rad_Oi
             // 
-            this.btn_Oi.AutoSize = true;
-            this.btn_Oi.Location = new System.Drawing.Point(7, 123);
-            this.btn_Oi.Name = "btn_Oi";
-            this.btn_Oi.Size = new System.Drawing.Size(41, 20);
-            this.btn_Oi.TabIndex = 3;
-            this.btn_Oi.Text = "Oi";
-            this.btn_Oi.UseVisualStyleBackColor = true;
-            this.btn_Oi.CheckedChanged += new System.EventHandler(this.btn_Oi_CheckedChanged);
+            this.Rad_Oi.AutoSize = true;
+            this.Rad_Oi.Location = new System.Drawing.Point(7, 123);
+            this.Rad_Oi.Name = "Rad_Oi";
+            this.Rad_Oi.Size = new System.Drawing.Size(41, 20);
+            this.Rad_Oi.TabIndex = 3;
+            this.Rad_Oi.Text = "Oi";
+            this.Rad_Oi.UseVisualStyleBackColor = true;
+            this.Rad_Oi.CheckedChanged += new System.EventHandler(this.btn_Oi_CheckedChanged);
             // 
-            // btn_Tim
+            // Rad_Tim
             // 
-            this.btn_Tim.AutoSize = true;
-            this.btn_Tim.Location = new System.Drawing.Point(7, 96);
-            this.btn_Tim.Name = "btn_Tim";
-            this.btn_Tim.Size = new System.Drawing.Size(52, 20);
-            this.btn_Tim.TabIndex = 2;
-            this.btn_Tim.Text = "Tim";
-            this.btn_Tim.UseVisualStyleBackColor = true;
-            this.btn_Tim.CheckedChanged += new System.EventHandler(this.btn_Tim_CheckedChanged);
+            this.Rad_Tim.AutoSize = true;
+            this.Rad_Tim.Location = new System.Drawing.Point(7, 96);
+            this.Rad_Tim.Name = "Rad_Tim";
+            this.Rad_Tim.Size = new System.Drawing.Size(52, 20);
+            this.Rad_Tim.TabIndex = 2;
+            this.Rad_Tim.Text = "Tim";
+            this.Rad_Tim.UseVisualStyleBackColor = true;
+            this.Rad_Tim.CheckedChanged += new System.EventHandler(this.btn_Tim_CheckedChanged);
             // 
-            // btn_Claro
+            // Rad_Claro
             // 
-            this.btn_Claro.AutoSize = true;
-            this.btn_Claro.Location = new System.Drawing.Point(7, 69);
-            this.btn_Claro.Name = "btn_Claro";
-            this.btn_Claro.Size = new System.Drawing.Size(63, 20);
-            this.btn_Claro.TabIndex = 1;
-            this.btn_Claro.Text = "Claro";
-            this.btn_Claro.UseVisualStyleBackColor = true;
-            this.btn_Claro.CheckedChanged += new System.EventHandler(this.btn_Claro_CheckedChanged);
+            this.Rad_Claro.AutoSize = true;
+            this.Rad_Claro.Location = new System.Drawing.Point(7, 69);
+            this.Rad_Claro.Name = "Rad_Claro";
+            this.Rad_Claro.Size = new System.Drawing.Size(63, 20);
+            this.Rad_Claro.TabIndex = 1;
+            this.Rad_Claro.Text = "Claro";
+            this.Rad_Claro.UseVisualStyleBackColor = true;
+            this.Rad_Claro.CheckedChanged += new System.EventHandler(this.btn_Claro_CheckedChanged);
             // 
-            // btn_Vivo
+            // Rad_Vivo
             // 
-            this.btn_Vivo.AutoSize = true;
-            this.btn_Vivo.Location = new System.Drawing.Point(7, 42);
-            this.btn_Vivo.Name = "btn_Vivo";
-            this.btn_Vivo.Size = new System.Drawing.Size(57, 20);
-            this.btn_Vivo.TabIndex = 0;
-            this.btn_Vivo.Text = "Vivo";
-            this.btn_Vivo.UseVisualStyleBackColor = true;
-            this.btn_Vivo.CheckedChanged += new System.EventHandler(this.btn_Vivo_CheckedChanged);
+            this.Rad_Vivo.AutoSize = true;
+            this.Rad_Vivo.Location = new System.Drawing.Point(7, 42);
+            this.Rad_Vivo.Name = "Rad_Vivo";
+            this.Rad_Vivo.Size = new System.Drawing.Size(57, 20);
+            this.Rad_Vivo.TabIndex = 0;
+            this.Rad_Vivo.Text = "Vivo";
+            this.Rad_Vivo.UseVisualStyleBackColor = true;
+            this.Rad_Vivo.CheckedChanged += new System.EventHandler(this.btn_Vivo_CheckedChanged);
             // 
             // lbl_BemVindo
             // 
@@ -453,17 +452,17 @@
             this.lbl_SelecioneValor.TabIndex = 29;
             this.lbl_SelecioneValor.Text = "Selecione o Valor da Recarga";
             // 
-            // pcb_image
+            // pic_Logo
             // 
-            pcb_image.BackColor = System.Drawing.Color.Black;
-            pcb_image.Image = global::Operadora.Properties.Resources.im2;
-            pcb_image.Location = new System.Drawing.Point(12, 283);
-            pcb_image.Name = "pcb_image";
-            pcb_image.Size = new System.Drawing.Size(340, 180);
-            pcb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pcb_image.TabIndex = 30;
-            pcb_image.TabStop = false;
-            pcb_image.Click += new System.EventHandler(this.pcb_image_Click);
+            this.pic_Logo.BackColor = System.Drawing.Color.Transparent;
+            this.pic_Logo.Image = global::Operadora.Properties.Resources.R;
+            this.pic_Logo.Location = new System.Drawing.Point(19, 296);
+            this.pic_Logo.Name = "pic_Logo";
+            this.pic_Logo.Size = new System.Drawing.Size(271, 175);
+            this.pic_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_Logo.TabIndex = 31;
+            this.pic_Logo.TabStop = false;
+            this.pic_Logo.Click += new System.EventHandler(this.pic_Logo_Click);
             // 
             // frm_principal
             // 
@@ -471,7 +470,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(800, 498);
-            this.Controls.Add(pcb_image);
+            this.Controls.Add(this.pic_Logo);
             this.Controls.Add(this.lbl_SelecioneValor);
             this.Controls.Add(this.lbl_Validade8);
             this.Controls.Add(this.btn_RS8);
@@ -506,7 +505,7 @@
             this.Text = "Regarga para Celular";
             this.grp_operadoras.ResumeLayout(false);
             this.grp_operadoras.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(pcb_image)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -516,10 +515,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox grp_operadoras;
-        private System.Windows.Forms.RadioButton btn_Oi;
-        private System.Windows.Forms.RadioButton btn_Tim;
-        private System.Windows.Forms.RadioButton btn_Claro;
-        private System.Windows.Forms.RadioButton btn_Vivo;
+        private System.Windows.Forms.RadioButton Rad_Oi;
+        private System.Windows.Forms.RadioButton Rad_Tim;
+        private System.Windows.Forms.RadioButton Rad_Claro;
+        private System.Windows.Forms.RadioButton Rad_Vivo;
         private System.Windows.Forms.Label lbl_BemVindo;
         private System.Windows.Forms.TextBox txt_nome;
         private System.Windows.Forms.Label lbl_Nome;
@@ -548,6 +547,7 @@
         private System.Windows.Forms.Label lbl_Validade8;
         private System.Windows.Forms.Button btn_RS8;
         private System.Windows.Forms.Label lbl_SelecioneValor;
+        private System.Windows.Forms.PictureBox pic_Logo;
     }
 }
 

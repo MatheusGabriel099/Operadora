@@ -73,9 +73,9 @@ namespace Operadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fi41wha6c3e_whatsapp_logo_file_whatsapp_svg_wikimedia_commons {
+        internal static System.Drawing.Bitmap _7874b0243663287a3c56bca05a1d395d {
             get {
-                object obj = ResourceManager.GetObject("fi41wha6c3e_whatsapp_logo_file_whatsapp_svg_wikimedia_commons", resourceCulture);
+                object obj = ResourceManager.GetObject("_7874b0243663287a3c56bca05a1d395d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,29 @@ namespace Operadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap im2 {
+        internal static System.Drawing.Bitmap claro {
             get {
-                object obj = ResourceManager.GetObject("im2", resourceCulture);
+                object obj = ResourceManager.GetObject("claro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R {
+            get {
+                object obj = ResourceManager.GetObject("R", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TIM_Symbole {
+            get {
+                object obj = ResourceManager.GetObject("TIM_Symbole", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
