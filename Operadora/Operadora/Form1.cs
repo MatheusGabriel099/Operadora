@@ -75,10 +75,10 @@ namespace Operadora
             lbl_Validade6.Text = "90 dias";
 
             btn_RS7.Text = "100 reais";
-            lbl_Validade7.Text = "100 dias";
+            lbl_Validade7.Text = "180 dias";
 
-            btn_RS8.Text = "";
-            lbl_Validade8.Text = "";
+            btn_RS8.Text = "200 reais";
+            lbl_Validade8.Text = "365 dias";
         }
 
         private void pcb_image_Click(object sender, EventArgs e)
@@ -128,6 +128,31 @@ namespace Operadora
             lbl_Validade7.Enabled = true;
             btn_RS8.Enabled = true;
             lbl_Validade8.Enabled = true;
+
+            //Valores e validade das Recargas
+            btn_RS1.Text = "10 reais";
+            lbl_Validade1.Text = "30 dias";
+
+            btn_RS2.Text = "15 reais";
+            lbl_Validade2.Text = "30 dias";
+
+            btn_RS3.Text = "20 reais";
+            lbl_Validade3.Text = "45 dias";
+
+            btn_RS4.Text = "25 reais";
+            lbl_Validade4.Text = "45 dias";
+
+            btn_RS5.Text = "30 reais";
+            lbl_Validade5.Text = "90 dias";
+
+            btn_RS6.Text = "35 reais";
+            lbl_Validade6.Text = "90 dias";
+
+            btn_RS7.Text = "40 reais";
+            lbl_Validade7.Text = "90 dias";
+
+            btn_RS8.Text = "50 reais";
+            lbl_Validade8.Text = "90 dias";
         }
 
         private void btn_Claro_CheckedChanged(object sender, EventArgs e)
@@ -167,6 +192,31 @@ namespace Operadora
             lbl_Validade7.Enabled = true;
             btn_RS8.Enabled = true;
             lbl_Validade8.Enabled = true;
+
+            //Valores e validade das Recargas
+            btn_RS1.Text = "12 reais";
+            lbl_Validade1.Text = "30 dias";
+
+            btn_RS2.Text = "15 reais";
+            lbl_Validade2.Text = "30 dias";
+
+            btn_RS3.Text = "20 reais";
+            lbl_Validade3.Text = "60 dias";
+
+            btn_RS4.Text = "25 reais";
+            lbl_Validade4.Text = "60 dias";
+
+            btn_RS5.Text = "30 reais";
+            lbl_Validade5.Text = "90 dias";
+
+            btn_RS6.Text = "35 reais";
+            lbl_Validade6.Text = "90 dias";
+
+            btn_RS7.Text = "50 reais";
+            lbl_Validade7.Text = "120 dias";
+
+            btn_RS8.Text = "100 reais";
+            lbl_Validade8.Text = "180 dias";
         }
 
         private void btn_Tim_CheckedChanged(object sender, EventArgs e)
@@ -207,6 +257,30 @@ namespace Operadora
             btn_RS8.Enabled = true;
             lbl_Validade8.Enabled = true;
 
+            //Valores e validade das Recargas
+            btn_RS1.Text = "10 reais";
+            lbl_Validade1.Text = "30 dias";
+
+            btn_RS2.Text = "15 reais";
+            lbl_Validade2.Text = "30 dias";
+
+            btn_RS3.Text = "20 reais";
+            lbl_Validade3.Text = "30 dias";
+
+            btn_RS4.Text = "30 reais";
+            lbl_Validade4.Text = "90 dias";
+
+            btn_RS5.Text = "40 reais";
+            lbl_Validade5.Text = "90 dias";
+
+            btn_RS6.Text = "50 reais";
+            lbl_Validade6.Text = "180 dias";
+
+            btn_RS7.Text = "60 reais";
+            lbl_Validade7.Text = "180 dias";
+
+            btn_RS8.Text = "100 reais";
+            lbl_Validade8.Text = "180 dias";
         }
 
         private void pic_Logo_Click(object sender, EventArgs e)
