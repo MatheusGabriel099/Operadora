@@ -19,3 +19,4 @@ C:\Users\DB\Desktop\Operadora\Operadora\Operadora\obj\Debug\Operadora.csproj.Gen
 C:\Users\DB\Desktop\Operadora\Operadora\Operadora\obj\Debug\Operadora.csproj.CoreCompileInputs.cache
 C:\Users\DB\Desktop\Operadora\Operadora\Operadora\obj\Debug\Operadora.exe
 C:\Users\DB\Desktop\Operadora\Operadora\Operadora\obj\Debug\Operadora.pdb
+C:\Users\DB\Desktop\Operadora\Operadora\Operadora\obj\Debug\Operadora.exe.config

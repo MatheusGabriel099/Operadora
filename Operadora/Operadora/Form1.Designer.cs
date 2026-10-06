@@ -99,7 +99,7 @@
             this.Rad_Oi.AutoSize = true;
             this.Rad_Oi.Location = new System.Drawing.Point(7, 123);
             this.Rad_Oi.Name = "Rad_Oi";
-            this.Rad_Oi.Size = new System.Drawing.Size(41, 20);
+            this.Rad_Oi.Size = new System.Drawing.Size(40, 20);
             this.Rad_Oi.TabIndex = 3;
             this.Rad_Oi.Text = "Oi";
             this.Rad_Oi.UseVisualStyleBackColor = true;
@@ -110,7 +110,7 @@
             this.Rad_Tim.AutoSize = true;
             this.Rad_Tim.Location = new System.Drawing.Point(7, 96);
             this.Rad_Tim.Name = "Rad_Tim";
-            this.Rad_Tim.Size = new System.Drawing.Size(52, 20);
+            this.Rad_Tim.Size = new System.Drawing.Size(51, 20);
             this.Rad_Tim.TabIndex = 2;
             this.Rad_Tim.Text = "Tim";
             this.Rad_Tim.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
             this.Rad_Claro.AutoSize = true;
             this.Rad_Claro.Location = new System.Drawing.Point(7, 69);
             this.Rad_Claro.Name = "Rad_Claro";
-            this.Rad_Claro.Size = new System.Drawing.Size(63, 20);
+            this.Rad_Claro.Size = new System.Drawing.Size(62, 20);
             this.Rad_Claro.TabIndex = 1;
             this.Rad_Claro.Text = "Claro";
             this.Rad_Claro.UseVisualStyleBackColor = true;
@@ -132,7 +132,7 @@
             this.Rad_Vivo.AutoSize = true;
             this.Rad_Vivo.Location = new System.Drawing.Point(7, 42);
             this.Rad_Vivo.Name = "Rad_Vivo";
-            this.Rad_Vivo.Size = new System.Drawing.Size(57, 20);
+            this.Rad_Vivo.Size = new System.Drawing.Size(56, 20);
             this.Rad_Vivo.TabIndex = 0;
             this.Rad_Vivo.Text = "Vivo";
             this.Rad_Vivo.UseVisualStyleBackColor = true;
@@ -145,7 +145,7 @@
             this.lbl_BemVindo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_BemVindo.Location = new System.Drawing.Point(218, 89);
             this.lbl_BemVindo.Name = "lbl_BemVindo";
-            this.lbl_BemVindo.Size = new System.Drawing.Size(142, 16);
+            this.lbl_BemVindo.Size = new System.Drawing.Size(141, 16);
             this.lbl_BemVindo.TabIndex = 2;
             this.lbl_BemVindo.Text = "Seja Bem Vindo(a):";
             // 
@@ -250,7 +250,10 @@
             this.btn_RS1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS1.Enabled = false;
             this.btn_RS1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS1.FlatAppearance.BorderSize = 5;
+            this.btn_RS1.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btn_RS1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_RS1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_RS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS1.Location = new System.Drawing.Point(365, 283);
             this.btn_RS1.Name = "btn_RS1";
@@ -258,11 +261,17 @@
             this.btn_RS1.TabIndex = 13;
             this.btn_RS1.Text = "R$";
             this.btn_RS1.UseVisualStyleBackColor = true;
+            this.btn_RS1.Click += new System.EventHandler(this.btn_RS1_Click);
             // 
             // btn_RS2
             // 
             this.btn_RS2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS2.Enabled = false;
+            this.btn_RS2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_RS2.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btn_RS2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_RS2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_RS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS2.Location = new System.Drawing.Point(464, 283);
             this.btn_RS2.Name = "btn_RS2";
@@ -270,11 +279,17 @@
             this.btn_RS2.TabIndex = 14;
             this.btn_RS2.Text = "R$";
             this.btn_RS2.UseVisualStyleBackColor = true;
+            this.btn_RS2.Click += new System.EventHandler(this.btn_RS2_Click);
             // 
             // btn_RS3
             // 
             this.btn_RS3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS3.Enabled = false;
+            this.btn_RS3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_RS3.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btn_RS3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_RS3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_RS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS3.Location = new System.Drawing.Point(562, 283);
             this.btn_RS3.Name = "btn_RS3";
@@ -282,13 +297,17 @@
             this.btn_RS3.TabIndex = 15;
             this.btn_RS3.Text = "R$";
             this.btn_RS3.UseVisualStyleBackColor = true;
+            this.btn_RS3.Click += new System.EventHandler(this.btn_RS3_Click);
             // 
             // btn_RS4
             // 
             this.btn_RS4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS4.Enabled = false;
+            this.btn_RS4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_RS4.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.btn_RS4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btn_RS4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_RS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS4.Location = new System.Drawing.Point(658, 283);
             this.btn_RS4.Name = "btn_RS4";
@@ -296,6 +315,7 @@
             this.btn_RS4.TabIndex = 16;
             this.btn_RS4.Text = "R$";
             this.btn_RS4.UseVisualStyleBackColor = true;
+            this.btn_RS4.Click += new System.EventHandler(this.btn_RS4_Click);
             // 
             // lbl_Validade1
             // 
@@ -304,7 +324,7 @@
             this.lbl_Validade1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade1.Location = new System.Drawing.Point(366, 344);
             this.lbl_Validade1.Name = "lbl_Validade1";
-            this.lbl_Validade1.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade1.Size = new System.Drawing.Size(70, 16);
             this.lbl_Validade1.TabIndex = 17;
             this.lbl_Validade1.Text = "Validade";
             // 
@@ -315,7 +335,7 @@
             this.lbl_Validade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade2.Location = new System.Drawing.Point(469, 344);
             this.lbl_Validade2.Name = "lbl_Validade2";
-            this.lbl_Validade2.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade2.Size = new System.Drawing.Size(70, 16);
             this.lbl_Validade2.TabIndex = 18;
             this.lbl_Validade2.Text = "Validade";
             // 
@@ -326,7 +346,7 @@
             this.lbl_Validade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade3.Location = new System.Drawing.Point(567, 344);
             this.lbl_Validade3.Name = "lbl_Validade3";
-            this.lbl_Validade3.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade3.Size = new System.Drawing.Size(70, 16);
             this.lbl_Validade3.TabIndex = 19;
             this.lbl_Validade3.Text = "Validade";
             // 
@@ -337,7 +357,7 @@
             this.lbl_Validade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade4.Location = new System.Drawing.Point(663, 344);
             this.lbl_Validade4.Name = "lbl_Validade4";
-            this.lbl_Validade4.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade4.Size = new System.Drawing.Size(70, 16);
             this.lbl_Validade4.TabIndex = 20;
             this.lbl_Validade4.Text = "Validade";
             // 
@@ -348,7 +368,7 @@
             this.lbl_Validade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade5.Location = new System.Drawing.Point(366, 443);
             this.lbl_Validade5.Name = "lbl_Validade5";
-            this.lbl_Validade5.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade5.Size = new System.Drawing.Size(70, 16);
             this.lbl_Validade5.TabIndex = 22;
             this.lbl_Validade5.Text = "Validade";
             // 
@@ -357,7 +377,8 @@
             this.btn_RS5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS5.Enabled = false;
             this.btn_RS5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS5.FlatAppearance.BorderSize = 5;
+            this.btn_RS5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_RS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS5.Location = new System.Drawing.Point(365, 382);
             this.btn_RS5.Name = "btn_RS5";
@@ -365,6 +386,7 @@
             this.btn_RS5.TabIndex = 21;
             this.btn_RS5.Text = "R$";
             this.btn_RS5.UseVisualStyleBackColor = true;
+            this.btn_RS5.Click += new System.EventHandler(this.btn_RS5_Click);
             // 
             // lbl_Validade6
             // 
@@ -373,7 +395,7 @@
             this.lbl_Validade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade6.Location = new System.Drawing.Point(469, 443);
             this.lbl_Validade6.Name = "lbl_Validade6";
-            this.lbl_Validade6.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade6.Size = new System.Drawing.Size(70, 16);
             this.lbl_Validade6.TabIndex = 24;
             this.lbl_Validade6.Text = "Validade";
             // 
@@ -382,7 +404,8 @@
             this.btn_RS6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS6.Enabled = false;
             this.btn_RS6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS6.FlatAppearance.BorderSize = 5;
+            this.btn_RS6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_RS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS6.Location = new System.Drawing.Point(464, 382);
             this.btn_RS6.Name = "btn_RS6";
@@ -390,6 +413,7 @@
             this.btn_RS6.TabIndex = 23;
             this.btn_RS6.Text = "R$";
             this.btn_RS6.UseVisualStyleBackColor = true;
+            this.btn_RS6.Click += new System.EventHandler(this.btn_RS6_Click);
             // 
             // lbl_Validade7
             // 
@@ -398,7 +422,7 @@
             this.lbl_Validade7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade7.Location = new System.Drawing.Point(567, 443);
             this.lbl_Validade7.Name = "lbl_Validade7";
-            this.lbl_Validade7.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade7.Size = new System.Drawing.Size(70, 16);
             this.lbl_Validade7.TabIndex = 26;
             this.lbl_Validade7.Text = "Validade";
             // 
@@ -407,7 +431,8 @@
             this.btn_RS7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS7.Enabled = false;
             this.btn_RS7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS7.FlatAppearance.BorderSize = 5;
+            this.btn_RS7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_RS7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS7.Location = new System.Drawing.Point(562, 382);
             this.btn_RS7.Name = "btn_RS7";
@@ -415,6 +440,7 @@
             this.btn_RS7.TabIndex = 25;
             this.btn_RS7.Text = "R$";
             this.btn_RS7.UseVisualStyleBackColor = true;
+            this.btn_RS7.Click += new System.EventHandler(this.btn_RS7_Click);
             // 
             // lbl_Validade8
             // 
@@ -423,7 +449,7 @@
             this.lbl_Validade8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Validade8.Location = new System.Drawing.Point(663, 443);
             this.lbl_Validade8.Name = "lbl_Validade8";
-            this.lbl_Validade8.Size = new System.Drawing.Size(71, 16);
+            this.lbl_Validade8.Size = new System.Drawing.Size(70, 16);
             this.lbl_Validade8.TabIndex = 28;
             this.lbl_Validade8.Text = "Validade";
             // 
@@ -432,7 +458,8 @@
             this.btn_RS8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS8.Enabled = false;
             this.btn_RS8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS8.FlatAppearance.BorderSize = 5;
+            this.btn_RS8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_RS8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS8.Location = new System.Drawing.Point(658, 382);
             this.btn_RS8.Name = "btn_RS8";
@@ -440,6 +467,7 @@
             this.btn_RS8.TabIndex = 27;
             this.btn_RS8.Text = "R$";
             this.btn_RS8.UseVisualStyleBackColor = true;
+            this.btn_RS8.Click += new System.EventHandler(this.btn_RS8_Click);
             // 
             // lbl_SelecioneValor
             // 
@@ -448,7 +476,7 @@
             this.lbl_SelecioneValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_SelecioneValor.Location = new System.Drawing.Point(442, 254);
             this.lbl_SelecioneValor.Name = "lbl_SelecioneValor";
-            this.lbl_SelecioneValor.Size = new System.Drawing.Size(218, 16);
+            this.lbl_SelecioneValor.Size = new System.Drawing.Size(217, 16);
             this.lbl_SelecioneValor.TabIndex = 29;
             this.lbl_SelecioneValor.Text = "Selecione o Valor da Recarga";
             // 
@@ -502,7 +530,7 @@
             this.Controls.Add(this.grp_operadoras);
             this.Controls.Add(this.label1);
             this.Name = "frm_principal";
-            this.Text = "Regarga para Celular";
+            this.Text = "Recarga para Celular";
             this.grp_operadoras.ResumeLayout(false);
             this.grp_operadoras.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Logo)).EndInit();

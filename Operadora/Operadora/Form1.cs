@@ -30,14 +30,11 @@ namespace Operadora
             lbl_Nome.Enabled = true;
             txt_nome.Enabled = true;
             lbl_OperadoraSelecionada.Enabled = true;
-            txt_OperadoraSelecionada.Enabled = true;
             lbl_DDD.Enabled = true;
             txt_DDD.Enabled = true;
             lbl_NumeroCelular.Enabled = true;
             txt_NumeroCelular.Enabled = true;
             lbl_ValorRecarga.Enabled = true;
-            txt_ValorRecarga.Enabled = true;
-            txt_ValorRecarga.Enabled = true;
             btn_RS1.Enabled = true;
             lbl_Validade1.Enabled = true;
             btn_RS2.Enabled = true;
@@ -54,6 +51,34 @@ namespace Operadora
             lbl_Validade7.Enabled = true;
             btn_RS8.Enabled = true;
             lbl_Validade8.Enabled = true;
+
+            //Formação dos Botões
+            btn_RS1.ForeColor = Color.Violet;
+            btn_RS1.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS2.ForeColor = Color.Violet;
+            btn_RS2.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS3.ForeColor = Color.Violet;
+            btn_RS3.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS4.ForeColor = Color.Violet;
+            btn_RS4.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS5.ForeColor = Color.Violet;
+            btn_RS5.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS6.ForeColor = Color.Violet;
+            btn_RS6.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS7.ForeColor = Color.Violet;
+            btn_RS7.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS8.ForeColor = Color.Violet;
+            btn_RS8.FlatAppearance.MouseOverBackColor = Color.White;
+
+            //Cor da Borda
+            btn_RS1.FlatAppearance.BorderColor = Color.Violet;
+            btn_RS2.FlatAppearance.BorderColor = Color.Violet;
+            btn_RS3.FlatAppearance.BorderColor = Color.Violet;
+            btn_RS4.FlatAppearance.BorderColor = Color.Violet;
+            btn_RS5.FlatAppearance.BorderColor = Color.Violet;
+            btn_RS6.FlatAppearance.BorderColor = Color.Violet;
+            btn_RS7.FlatAppearance.BorderColor = Color.Violet;
+            btn_RS8.FlatAppearance.BorderColor = Color.Violet;
 
             //Valores e validade das Recargas
             btn_RS1.Text = "12 reais";
@@ -104,13 +129,11 @@ namespace Operadora
             lbl_Nome.Enabled = true;
             txt_nome.Enabled = true;
             lbl_OperadoraSelecionada.Enabled = true;
-            txt_OperadoraSelecionada.Enabled = true;
             lbl_DDD.Enabled = true;
             txt_DDD.Enabled = true;
             lbl_NumeroCelular.Enabled = true;
             txt_NumeroCelular.Enabled = true;
             lbl_ValorRecarga.Enabled = true;
-            txt_ValorRecarga.Enabled = true;
             lbl_SelecioneValor.Enabled = true;
             btn_RS1.Enabled = true;
             lbl_Validade1.Enabled = true;
@@ -128,6 +151,34 @@ namespace Operadora
             lbl_Validade7.Enabled = true;
             btn_RS8.Enabled = true;
             lbl_Validade8.Enabled = true;
+
+            //Formação dos Botões
+            btn_RS1.ForeColor = Color.Gold;
+            btn_RS1.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS2.ForeColor = Color.Gold;
+            btn_RS2.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS3.ForeColor = Color.Gold;
+            btn_RS3.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS4.ForeColor = Color.Gold;
+            btn_RS4.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS5.ForeColor = Color.Gold;
+            btn_RS5.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS6.ForeColor = Color.Gold;
+            btn_RS6.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS7.ForeColor = Color.Gold;
+            btn_RS7.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS8.ForeColor = Color.Gold;
+            btn_RS8.FlatAppearance.MouseOverBackColor = Color.White;
+
+            //Cor da Borda
+            btn_RS1.FlatAppearance.BorderColor = Color.Gold;
+            btn_RS2.FlatAppearance.BorderColor = Color.Gold;
+            btn_RS3.FlatAppearance.BorderColor = Color.Gold;
+            btn_RS4.FlatAppearance.BorderColor = Color.Gold;
+            btn_RS5.FlatAppearance.BorderColor = Color.Gold;
+            btn_RS6.FlatAppearance.BorderColor = Color.Gold;
+            btn_RS7.FlatAppearance.BorderColor = Color.Gold;
+            btn_RS8.FlatAppearance.BorderColor = Color.Gold;
 
             //Valores e validade das Recargas
             btn_RS1.Text = "10 reais";
@@ -168,11 +219,9 @@ namespace Operadora
             lbl_Nome.Enabled = true;
             txt_nome.Enabled = true;
             lbl_OperadoraSelecionada.Enabled = true;
-            txt_OperadoraSelecionada.Enabled = true;
             lbl_DDD.Enabled = true;
             txt_DDD.Enabled = true;
             lbl_NumeroCelular.Enabled = true;
-            txt_NumeroCelular.Enabled = true;
             lbl_ValorRecarga.Enabled = true;
             txt_ValorRecarga.Enabled = true;
             lbl_SelecioneValor.Enabled = true;
@@ -192,6 +241,34 @@ namespace Operadora
             lbl_Validade7.Enabled = true;
             btn_RS8.Enabled = true;
             lbl_Validade8.Enabled = true;
+
+            //Formação dos Botões
+            btn_RS1.ForeColor = Color.Black;
+            btn_RS1.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS2.ForeColor = Color.Black;
+            btn_RS2.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS3.ForeColor = Color.Black;
+            btn_RS3.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS4.ForeColor = Color.Black;
+            btn_RS4.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS5.ForeColor = Color.Black;
+            btn_RS5.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS6.ForeColor = Color.Black;
+            btn_RS6.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS7.ForeColor = Color.Black;
+            btn_RS7.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS8.ForeColor = Color.Black;
+            btn_RS8.FlatAppearance.MouseOverBackColor = Color.White;
+
+            //Cor da Borda
+            btn_RS1.FlatAppearance.BorderColor = Color.Black;
+            btn_RS2.FlatAppearance.BorderColor = Color.Black;
+            btn_RS3.FlatAppearance.BorderColor = Color.Black;
+            btn_RS4.FlatAppearance.BorderColor = Color.Black;
+            btn_RS5.FlatAppearance.BorderColor = Color.Black;
+            btn_RS6.FlatAppearance.BorderColor = Color.Black;
+            btn_RS7.FlatAppearance.BorderColor = Color.Black;
+            btn_RS8.FlatAppearance.BorderColor = Color.Black;
 
             //Valores e validade das Recargas
             btn_RS1.Text = "12 reais";
@@ -232,13 +309,11 @@ namespace Operadora
             lbl_Nome.Enabled = true;
             txt_nome.Enabled = true;
             lbl_OperadoraSelecionada.Enabled = true;
-            txt_OperadoraSelecionada.Enabled = true;
             lbl_DDD.Enabled = true;
             txt_DDD.Enabled = true;
             lbl_NumeroCelular.Enabled = true;
             txt_NumeroCelular.Enabled = true;
             lbl_ValorRecarga.Enabled = true;
-            txt_ValorRecarga.Enabled = true;
             lbl_SelecioneValor.Enabled = true;
             btn_RS1.Enabled = true;
             lbl_Validade1.Enabled = true;
@@ -256,6 +331,34 @@ namespace Operadora
             lbl_Validade7.Enabled = true;
             btn_RS8.Enabled = true;
             lbl_Validade8.Enabled = true;
+
+            //Formação dos Botões
+            btn_RS1.ForeColor = Color.RoyalBlue;
+            btn_RS1.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS2.ForeColor = Color.RoyalBlue;
+            btn_RS2.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS3.ForeColor = Color.RoyalBlue;
+            btn_RS3.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS4.ForeColor = Color.RoyalBlue;
+            btn_RS4.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS5.ForeColor = Color.RoyalBlue;
+            btn_RS5.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS6.ForeColor = Color.RoyalBlue;
+            btn_RS6.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS7.ForeColor = Color.RoyalBlue;
+            btn_RS7.FlatAppearance.MouseOverBackColor = Color.White;
+            btn_RS8.ForeColor = Color.RoyalBlue;
+            btn_RS8.FlatAppearance.MouseOverBackColor = Color.White;
+
+            //Cor da Borda
+            btn_RS1.FlatAppearance.BorderColor = Color.RoyalBlue;
+            btn_RS2.FlatAppearance.BorderColor = Color.RoyalBlue;
+            btn_RS3.FlatAppearance.BorderColor = Color.RoyalBlue;
+            btn_RS4.FlatAppearance.BorderColor = Color.RoyalBlue;
+            btn_RS5.FlatAppearance.BorderColor = Color.RoyalBlue;
+            btn_RS6.FlatAppearance.BorderColor = Color.RoyalBlue;
+            btn_RS7.FlatAppearance.BorderColor = Color.RoyalBlue;
+            btn_RS8.FlatAppearance.BorderColor = Color.RoyalBlue;
 
             //Valores e validade das Recargas
             btn_RS1.Text = "10 reais";
@@ -286,6 +389,46 @@ namespace Operadora
         private void pic_Logo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_RS1_Click(object sender, EventArgs e)
+        {
+            txt_ValorRecarga.Text = "R$" + btn_RS1.Text;
+        }
+
+        private void btn_RS2_Click(object sender, EventArgs e)
+        {
+            txt_ValorRecarga.Text = "R$" + btn_RS2.Text;
+        }
+
+        private void btn_RS3_Click(object sender, EventArgs e)
+        {
+            txt_ValorRecarga.Text = "R$" + btn_RS3.Text;
+        }
+
+        private void btn_RS4_Click(object sender, EventArgs e)
+        {
+            txt_ValorRecarga.Text = "R$" + btn_RS4.Text;
+        }
+
+        private void btn_RS5_Click(object sender, EventArgs e)
+        {
+            txt_ValorRecarga.Text = "R$" + btn_RS5.Text;
+        }
+
+        private void btn_RS6_Click(object sender, EventArgs e)
+        {
+            txt_ValorRecarga.Text = "R$" + btn_RS6.Text;
+        }
+
+        private void btn_RS7_Click(object sender, EventArgs e)
+        {
+            txt_ValorRecarga.Text = "R$" + btn_RS7.Text;
+        }
+
+        private void btn_RS8_Click(object sender, EventArgs e)
+        {
+            txt_ValorRecarga.Text = "R$" + btn_RS8.Text;
         }
     }
 }
