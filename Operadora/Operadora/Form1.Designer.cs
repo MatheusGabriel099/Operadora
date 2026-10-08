@@ -486,7 +486,7 @@
             this.pic_Logo.Image = global::Operadora.Properties.Resources.R;
             this.pic_Logo.Location = new System.Drawing.Point(19, 296);
             this.pic_Logo.Name = "pic_Logo";
-            this.pic_Logo.Size = new System.Drawing.Size(323, 175);
+            this.pic_Logo.Size = new System.Drawing.Size(273, 175);
             this.pic_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_Logo.TabIndex = 31;
             this.pic_Logo.TabStop = false;
