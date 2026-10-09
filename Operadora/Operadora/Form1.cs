@@ -35,6 +35,7 @@ namespace Operadora
             lbl_NumeroCelular.Enabled = true;
             txt_NumeroCelular.Enabled = true;
             lbl_ValorRecarga.Enabled = true;
+            txt_ValorRecarga.Enabled = false;
             btn_RS1.Enabled = true;
             lbl_Validade1.Enabled = true;
             btn_RS2.Enabled = true;
@@ -134,6 +135,7 @@ namespace Operadora
             lbl_NumeroCelular.Enabled = true;
             txt_NumeroCelular.Enabled = true;
             lbl_ValorRecarga.Enabled = true;
+            txt_ValorRecarga.Enabled = false;
             lbl_SelecioneValor.Enabled = true;
             btn_RS1.Enabled = true;
             lbl_Validade1.Enabled = true;
@@ -223,7 +225,7 @@ namespace Operadora
             txt_DDD.Enabled = true;
             lbl_NumeroCelular.Enabled = true;
             lbl_ValorRecarga.Enabled = true;
-            txt_ValorRecarga.Enabled = true;
+            txt_ValorRecarga.Enabled = false;
             lbl_SelecioneValor.Enabled = true;
             btn_RS1.Enabled = true;
             lbl_Validade1.Enabled = true;
@@ -314,6 +316,7 @@ namespace Operadora
             lbl_NumeroCelular.Enabled = true;
             txt_NumeroCelular.Enabled = true;
             lbl_ValorRecarga.Enabled = true;
+            txt_ValorRecarga.Enabled = false;
             lbl_SelecioneValor.Enabled = true;
             btn_RS1.Enabled = true;
             lbl_Validade1.Enabled = true;
